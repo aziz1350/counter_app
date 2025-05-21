@@ -4,3 +4,4 @@
 /build linguist-vendored
 /lib linguist-detectable
 /test linguist-test
+*.dart linguist-detectable
