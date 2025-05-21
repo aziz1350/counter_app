@@ -1,2 +1,6 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+/*.md linguist-documentation
+/android linguist-vendored
+/ios linguist-vendored
+/build linguist-vendored
+/lib linguist-detectable
+/test linguist-test
