@@ -1,7 +1,18 @@
+# Tell GitHub to ignore these folders for language detection
+/android/* linguist-vendored
+/ios/* linguist-vendored
+/build/* linguist-vendored
+/test/* linguist-test
 /*.md linguist-documentation
+<<<<<<< HEAD
 /android linguist-vendored
 /ios linguist-vendored
 /build linguist-vendored
 /lib linguist-detectable
 /test linguist-test
 *.dart linguist-detectable
+=======
+
+# Make sure Dart files are detected
+*.dart linguist-detectable
+>>>>>>> bdf5c045fb21d6f7045ab8134be1e1376463e739
