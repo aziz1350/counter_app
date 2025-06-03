@@ -1,16 +1,45 @@
-# counter_app
+# ✅ Simple To-Do List App (Flutter + SharedPreferences)
 
-A new Flutter project.
+A beginner-friendly Flutter app that allows users to add, view, and persist tasks using `SharedPreferences`.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📱 Features
 
-A few resources to get you started if this is your first Flutter project:
+- 📝 Add new tasks
+- 📋 Display tasks in a scrollable `ListView`
+- 💾 Save and load tasks using local storage (`SharedPreferences`)
+- 🚫 Remove tasks by long-pressing
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📦 Tech Stack
+
+- **Framework:** Flutter
+- **Local Storage:** SharedPreferences
+
+---
+
+## 🎯 Objectives
+
+- Demonstrate basic Flutter UI with `TextField`, `ListView`, and `ElevatedButton`
+- Understand state management using `setState`
+- Persist data across app launches using SharedPreferences
+
+---
+
+## 🚀 Getting Started
+
+### ✅ Prerequisites
+
+- Flutter SDK ([Install Guide](https://docs.flutter.dev/get-started/install))
+- Any IDE (VS Code, Android Studio)
+
+---
+
+### 🛠️ Setup Instructions
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/aziz1350/flutter_todo_list_app.git
+   cd flutter_todo_list_app
